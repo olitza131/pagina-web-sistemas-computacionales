@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolución de las Computadoras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 2em;
+        }
+
+        section {
+            margin-bottom: 2em;
+        }
+
+        section h2 {
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 0.5em;
+            margin-bottom: 1em;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ddd;
+            margin: 1em 0;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 1em;
+            margin: 0.5em 0;
+            border: 1px solid #ddd;
+        }
+
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 1em;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Evolución de las Computadoras</h1>
+        <p>Un vistazo al fascinante desarrollo de la tecnología informática.</p>
+    </header>
+
+    <nav>
+        <a href="#introduccion">Introducción</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <section id="introduccion">
+            <h2>Introducción</h2>
+            <p>La evolución de las computadoras ha sido un proceso emocionante y transformador. Desde las enormes máquinas de la década de 1940 hasta los dispositivos portátiles modernos, cada avance ha cambiado nuestra forma de interactuar con la tecnología.</p>
+        </section>
+
+        <section id="galeria" class="gallery">
+            <h2>Galería de Imágenes</h2>
+            <img src="https://via.placeholder.com/600x400" alt="Primera generación de computadoras">
+            <img src="https://via.placeholder.com/600x400" alt="Computadoras de la década de 1980">
+            <img src="https://via.placeholder.com/600x400" alt="Dispositivos modernos">
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Tu correo electrónico" required>
+                <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Evolución de las Computadoras. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
